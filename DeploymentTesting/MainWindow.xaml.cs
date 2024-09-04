@@ -32,7 +32,6 @@ namespace DeploymentTesting
             saveFileDialog.Filter = "Text file (*.txt)|*.txt|All files (*.*)|*.*";
             string currentDirectory = Directory.GetCurrentDirectory();
             MessageBox.Show($"Current Directory: {currentDirectory}", "Current Directory");
-            File.WriteAllText("test.txt", "TEST Code");
         }
     }
 }
